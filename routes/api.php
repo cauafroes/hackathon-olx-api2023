@@ -19,4 +19,6 @@ use Illuminate\Support\Facades\Route;
 //});
 
 Route::resource('products', 'App\Http\Controllers\ProductController');
-Route::post('messages', ['App\Http\Controllers\ProductController', 'msg']);
+Route::post('olivia', ['App\Http\Controllers\ProductController', 'olivia']);
+Route::post('oliver', ['App\Http\Controllers\ProductController', 'oliver']);
+Route::post('tune', ['App\Http\Controllers\ProductController', 'tune']);
